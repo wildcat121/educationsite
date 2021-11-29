@@ -15,19 +15,21 @@ html{
     vertical-align: middle;
 }
 .sidenav {
+    position: relative;
     height: 100%;
     width: 200px;
     top: 0;
     left: 0;
-
+    float: right;
     padding-top: 20px;
 }
 .sidenav a {
+    position: relative;
     padding: 6px 8px 6px 8px;
     text-decoration: none;
     font-size: 30px;
     color: black;
-    display: block;
+    display: inline-block;
     text-align: center;
 }
 .sidenav a:hover {
