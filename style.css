@@ -1,38 +1,81 @@
+*{
+    font-family: 'Press Start 2P', cursive;
+}
 html{
     background-color: #dcdcdc;
 }
-.logo img {
+body {
+    margin: 0;
+}
+header {
+    background-color: gray;
+    height: 90px;
+}
+/* стили header */
+.logo {
+    width: 15%;
+    float: left;
+}
+.menu {
+    width: 35%;
+    height: auto;
+    float: left;
+}
+.head img {
     display: inline-block;
+    position: relative;
     border-radius: 100px;
-    width: 100px;
-    height: 100px;
-    margin-left: 50px;
-    vertical-align: middle;
+    height: 80px;
+    left: 20px;
+    top: 5px;
 }
-.name h1 {
+/* .head h1 {
     display: inline-block;
-    font-size: 50px;
-    vertical-align: middle;
-}
-.sidenav {
     position: relative;
-    height: 100%;
-    width: 200px;
-    top: 0;
-    left: 0;
-    float: right;
-    padding-top: 20px;
-}
-.sidenav a {
+    left: 17px;
+    bottom: 10px;
+    font-size: 30px;
+    width: 85px;
+} */
+.menu a {
+    display: inline-block;
     position: relative;
-    padding: 6px 8px 6px 8px;
+    padding: 0px 4px 0px 4px;
     text-decoration: none;
     font-size: 30px;
     color: black;
-    display: inline-block;
-    text-align: center;
+    top: 30px;
+    left: 500px;
 }
-.sidenav a:hover {
-    color: #f1f1f1;
+.menu a:hover {
+    color:white;
 }
-
+/* стили Info */
+.main {
+    border: 1px solid red ;
+}
+.main_info {
+    border: 1px solid black ;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 75%;
+    height: auto;
+    float: left;
+}
+.main_info h2 {
+    position: relative;
+    left: 10px;
+}
+.foto img {
+    position: relative;
+    border-radius: 10px;
+    left: 60px;
+}
+.info {
+    border: 1px solid black ;
+    width: 23%;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
