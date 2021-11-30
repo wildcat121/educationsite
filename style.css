@@ -111,3 +111,27 @@ header {
     border-bottom: 1px solid black;
     margin-bottom: 10px;
 }
+.panel {
+    
+    float: left;
+    width: 456px;
+    height: auto;
+}
+.cont {
+    position: relative;
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cont a {
+    text-decoration: none;
+    color: black;
+}
+.cont a:hover {
+    color: white;
+}
+.foto {
+    position: relative;
+    float: left;
+}
