@@ -1,6 +1,33 @@
 *{
     font-family: 'Press Start 2P', cursive;
 }
+.main:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .main { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .main { height: 1%; }
+  .main { display: block; }
+  /* close commented backslash hack */
+
+  .main2:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .main2 { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .main2 { height: 1%; }
+  .main2 { display: block; }
+  /* close commented backslash hack */
 html{
     background-color: #dcdcdc;
 }
@@ -66,13 +93,15 @@ header {
     margin-top: 10px;
     height: auto;
 }
-.name h2 {
+.name h3 {
     position: relative;
     display: inline-block;
     margin-top: 20px;
+    margin-left: 5px;
 }
 .name h4 {
     margin-top: 10px;
+    margin-left: 5px;
 }
 .butt input {
     position: relative;
@@ -99,7 +128,7 @@ header {
     left: 25px;
     margin-top: 10px;
 }
-.main1 input {
+.main1 button {
     position: relative;
     left: 20px;
     margin-top: 10px;
@@ -131,7 +160,47 @@ header {
 .cont a:hover {
     color: white;
 }
-.foto {
+.main2 {
+    border: 1px solid black;
+    height: auto;
+}
+.main_info2 {
     position: relative;
+    border: 1px solid black ;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 790px;
+    height: auto;
     float: left;
+    left: 670px;
+}
+.friends {
+    display: inline-table;
+    float: left;
+    border: 1px solid black;
+    position: relative;
+    width: 320px;
+    height: auto;
+}
+.foto_panel {
+    display: inline-block;
+    border: 1px solid black ;
+    position: relative;
+    width: 440px;
+    margin-left: 10px;
+}
+.foto_panel h5 {
+    margin: 0;
+    margin-left: 5px;
+}
+.foto_panel img {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 123px;
+    height: 123px;
+    transition: 0.5s;
+}
+.foto_panel img:hover {
+    transform: scale(1.1);
 }
